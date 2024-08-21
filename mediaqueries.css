@@ -27,6 +27,18 @@
    .clients-texto h3{
     font-size: 28px;
    }
+
+  .quick-links h2{
+    font-weight: bold;
+  }
+
+  .pages h2{
+    font-weight: bold;
+  }
+
+  .follow-us h2{
+    font-weight: bold;
+  }
     }
 
     .adventures h1{
