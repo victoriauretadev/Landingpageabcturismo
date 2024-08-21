@@ -70,7 +70,7 @@ nav {
   margin-right: 10px;
 }
 
-.nav-menu-ul {
+.navbar-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,7 +79,7 @@ nav {
   gap: 30px;
 }
 
-.nav-menu-ul li a {
+.navbar-list li a {
   text-decoration: none;
   color: var(--nav-tipografia);
   font-family: "Comfortaa", sans-serif;
@@ -87,6 +87,16 @@ nav {
   font-size: 13px;
 }
 
+
+/* Menu responsivo */
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-label{
+  display: none;
+}
 /* --------------------- */
 
 /* section adventures */

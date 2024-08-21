@@ -1,0 +1,89 @@
+/* Tablet, empezamos de 992 para abajo */
+
+:root {
+    --logo: #f6821f;
+    --nav-tipografia: #f0f0f0;
+    --color-boton: #2776e8;
+    --texto: #363636;
+    --texto-secondary: #a1a1a1;
+    --background-color: #faebd7;
+    --estrella: #f6af2b;
+    --background-gris: #edf6ff;
+  }
+
+@media (max-width:992px){
+
+    /* Desde aca son los cambios para el boton responsive */
+
+    .search{
+        display: none;
+    }
+
+   .your-email{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .clients-texto h3{
+    font-size: 40px;
+   }
+    }
+
+    .adventures h1{
+        font-size:50px;
+    }
+    .navbar{
+        /* background-color: red; */
+        gap:10px;
+    }
+
+    .navbar-list{
+        display: none;
+        position: absolute;
+        top:65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        background: var(--estrella);
+        opacity: 0.8;
+        border: 2px solid var(--color-boton);
+        border-radius:   0px 0px 15px 15px;
+        padding: 45px 30px;
+        gap:25px;
+        z-index: 2;
+        -webkit-border-radius:;
+        -moz-border-radius:;
+        -ms-border-radius:;
+        -o-border-radius:;
+}
+
+.navbar-list li a{
+    color: var(--texto);
+    font-weight:bolder;
+    font-size:15px;
+}
+
+.menu-label{
+    display: flex;
+    cursor: pointer;
+    order:2;
+}
+
+
+.img-responsive{
+    width: 30px;
+    height: 40px;
+    color: var(--nav-tipografia);
+}
+
+#menu-toggle:checked + .navbar-list{
+    display: flex;
+}
+
+}
+
+
+
+

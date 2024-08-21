@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page Tourism</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
     <!-- Header -->
 
     <header>
-
-      
       <h2 class="logo">In.lombok</h2>
 
       <input class="search" type="search" placeholder="Search for anything" />
 
-      <nav>
-        <ul class="nav-menu-ul">
+      <nav class="navbar">
+
+        <!-- Menu hamburguesa -->
+        <label for="menu-toggle" class="menu-label">
+          <svg class="img-responsive" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+        </label>
+        <input type="checkbox" id="menu-toggle">
+
+        <!-- navbar-list -->
+        <ul class="navbar-list">
           <li><a href="#">Home</a></li>
           <li><a href="#">About Us</a></li>
           <li><a href="#">Pack</a></li>
@@ -898,61 +907,51 @@
     </section>
 
     <!-- section subscribe -->
-<section class="subscribe">
+    <section class="subscribe">
+      <div class="subscribe-texto">
+        <h3>Subscribe be Update</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi minus
+          quasi aperiam unde odit? Asperiores!
+        </p>
 
-    <div class="subscribe-texto">
-      <h3>Subscribe be Update</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi minus
-        quasi aperiam unde odit? Asperiores!
-      </p>
+        <div class="your-email">
+          <input type="email" placeholder="Please enter your email addres..." />
 
-      <div class="your-email">
-        <input type="email" placeholder="Please enter your email addres..." />
-
-        <button class="btn-subscribe">Subscribe</button>
+          <button class="btn-subscribe">Subscribe</button>
+        </div>
       </div>
-    </div>
+    </section>
 
-</section>
+    <footer>
+      <section class="footer">
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+          <div class="links-quick">
+            <a class="link-1" href="#">Home</a>
+            <a class="link-2" href="#">About Us</a>
+            <a class="link-3" href="#">Package</a>
+            <a class="link-4" href="#">Contact Us</a>
+          </div>
+        </div>
 
+        <div class="pages">
+          <h2>Pages</h2>
 
-<footer>
-  <section class="footer">
+          <a href="#">Featured</a>
+          <a href="#">Category</a>
+          <a href="#">Testimonial</a>
+          <a href="#">Package</a>
+        </div>
 
-  <div class="quick-links">
+        <div class="follow-us">
+          <h2>Follow Us</h2>
 
-    <h2>Quick Links</h2>
-  <div class="links-quick">
-    <a class="link-1" href="#">Home</a>
-    <a class="link-2" href="#">About Us</a>
-    <a class="link-3" href="#">Package</a>
-    <a class="link-4" href="#">Contact Us</a>
-  </div>
-  </div>
-
-  <div class="pages">
-
-    <h2>Pages</h2>
-
-    <a href="#">Featured</a>
-    <a href="#">Category</a>
-    <a href="#">Testimonial</a>
-    <a href="#">Package</a>
-
-  </div>
-
-  <div class="follow-us">
-    
-    <h2>Follow Us</h2>
-
-    <a href="#">Facebook</a>
-    <a href="#">Instagram</a>
-    <a href="#">Whatsapp</a>
-  </div>
-
-  </section>
-</footer>
-
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Whatsapp</a>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
